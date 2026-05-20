@@ -1,0 +1,39 @@
+{
+  "name": "dmbiel-saucedemo-e2e",
+  "version": "1.0.0",
+  "description": "End-to-End test automation framework for SauceDemo using Playwright and TypeScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "report": "playwright show-report",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "keywords": [
+    "playwright",
+    "typescript",
+    "e2e",
+    "test-automation",
+    "saucedemo",
+    "qa",
+    "automation"
+  ],
+  "author": "Dmytro Bieliaiev",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "latest",
+    "@playwright/test": "latest",
+    "@types/node": "latest",
+    "eslint": "latest",
+    "eslint-config-prettier": "latest",
+    "prettier": "latest",
+    "typescript": "latest",
+    "typescript-eslint": "latest"
+  }
+}
