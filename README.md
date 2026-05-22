@@ -174,6 +174,18 @@ Run WebKit only:
 npm run test:webkit
 ```
 
+Run smoke scenarios:
+
+```bash
+npm run test:smoke
+```
+
+Run checkout scenarios:
+
+```bash
+npm run test:checkout
+```
+
 Run headed mode:
 
 ```bash
